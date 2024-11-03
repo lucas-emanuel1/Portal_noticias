@@ -5,14 +5,21 @@ main {
 .card-img {
   position: relative;
   &::after {
-    position: absolute;
     content: '';
+    position: absolute;
     background-image: linear-gradient(
-      180deg,
-      transparent 0%,
-      #020617 100%
+      transparent,
+      #020617
     );
     inset: 0;
-    top: 50%;
+  }
+  figcaption {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    padding: 24px;
+    h2 {
+      margin-top: 8px;
+    }
   }
 }
