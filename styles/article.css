@@ -2,5 +2,6 @@
   margin-block: 80px;
 }
 
-
-/* continua parte 2 */
+.more-content aside p {
+  font: var(--h3)
+}
