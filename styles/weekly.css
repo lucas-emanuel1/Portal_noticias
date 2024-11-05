@@ -1,0 +1,23 @@
+#weekly {
+  margin-bottom: 40px;
+}
+
+#weekly div:nth-child(2) figure {
+  position: relative;
+  span {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+  }
+}
+
+#weekly div:nth-child(2) {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 24px;
+  a
+  p {
+    color: var(--text-color-primary);
+    margin-top: 8px;
+    font-weight: 800;
+  }
+}

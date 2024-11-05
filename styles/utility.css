@@ -15,8 +15,28 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-space-beetwen {
+  justify-content: space-between;
+}
+
+.grid-align-items-center {
+  align-items: center;
+}
+
 .gap-16 {
   gap: 16px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.margin-md {
+  margin-block: 12px;
+}
+
+.margin-sm {
+  margin-block: 8px;
 }
 
 #featured img {
